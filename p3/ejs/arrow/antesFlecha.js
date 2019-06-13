@@ -1,0 +1,3 @@
+let antesFlecha = new Function('x', 'y', 'return x+y')
+
+antesFlecha(3,2)
