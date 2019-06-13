@@ -13,6 +13,4 @@ const sentencias = (t) => {
     return count
 }
 
-const Parrafos = (t) => {
-    console.log(t.split('\n').length)
-}
+const Parrafos = (t) => t.split('\n').length
